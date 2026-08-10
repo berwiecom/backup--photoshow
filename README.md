@@ -1,5 +1,9 @@
 # PhotoShow 3.0
 
+## Website
+
+[PhotoShow-Gallery](https://web.berwie.com/gfx.gly..photoshow)
+
 ## Overview
 
 **PhotoShow**, *your* web gallery. **PhotoShow** is a *free* and *open source* web gallery, that you can very easily install on your web server. It doesn't even require a database !
@@ -27,7 +31,7 @@ Wow, well, loads. Here is a quick list.
 * Uploaders have lost a load of rights. Basically, all they can do is upload. No file removing anymore.
 * Rights management SHOULD be the same as before. But, just in case, please check after updating
 * Updated phpThumb library
-* Added configuration values for `quality_small` and `quality_mini` thumbnails with default of `90` - change them through your own config.php, like `$config->quality_small = 90;`  
+* Added configuration values for `quality_small` and `quality_mini` thumbnails with default of `90` - change them through your own config.php, like `$config->quality_small = 90;`
 * Make usage of your imagick installation, as it will result in better thumbnail quality! If the convert tool isn't located at `/usr/local/bin/convert` define your convert tool location through config.php by adding: `$config->imagemagick_path = '/your/path/to/convert';`
 
 ## Installation
